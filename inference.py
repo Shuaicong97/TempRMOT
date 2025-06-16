@@ -552,8 +552,7 @@ if __name__ == '__main__':
     elif "refer-mot17" in args0.rmot_path:
         video_ids = ['MOT17-01', 'MOT17-03', 'MOT17-06', 'MOT17-07', 'MOT17-08', 'MOT17-12', 'MOT17-14']
     elif "refer-mot20" in args0.rmot_path:
-        video_ids = ['MOT20-03']
-        # video_ids = ['MOT20-03', 'MOT20-05']
+        video_ids = ['MOT20-03', 'MOT20-05']
     else:
         video_ids = ['0005', '0011', '0013']
 
